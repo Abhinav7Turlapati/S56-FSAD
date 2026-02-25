@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+}
+
+.container {
+  display: block;
+  width: 96vw;
+  border: 1px solid black;
+}
+
+.header {
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 10vh;
+  display: flex;
+  align-items: center; 
+}
+
+.header h3 {
+  font-size: 20px;
+  margin-left: 2vw;
+}
+
+.header img {
+  width: 15vw;
+  height: 10vw;
+  margin-top: 1.5vh;
+}
+
+.content {
+  background-color: lightgreen;
+  border: 1px solid black;
+  min-height: 76vh;
+}
+
+.footer {
+  background-color: lightgray;
+  border: 1px solid black;
+  height: 10vh;
+}
